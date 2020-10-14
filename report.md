@@ -1,4 +1,4 @@
-## Question 1
+## part 1
 
 
 ![Image of map](/commands.png)
