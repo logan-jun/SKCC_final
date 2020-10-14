@@ -66,6 +66,9 @@ create external table employee (id INT, fname string, lname string, address stri
 create table solution as select c.id as id, c.fname as fname, c.lname as lname, c.hphone as hphone from customer c join account a on (c.id = a.custid) where a.amount < 0
 ![Image of map](/p3-2.PNG)
 
+### num 4
+hadoop fs -text /user/training/problem4/data/employee1 | hadoop fs -put - /user/training/problem5/data/employee2
+
 ### num 7
 select concat(employee.fname, ' ', employee.lname) as fullname from employee where employee.city = 'Seattle'
 ![Image of map](/p7.PNG)
@@ -77,3 +80,6 @@ sqoop export  --connect jdbc:mysql://localhost/problem8 --username cloudera --pa
 alter table customer change customer.id customer.id string
 
 ### num 10
+create view as (select * from billing b left outer join customer c on (b.id = c.id))
+
+### num 11
