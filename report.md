@@ -1,7 +1,7 @@
 ## part 1
 
 
-![Image of map](/commands.png)
+![Image of map](/commands.PNG)
 ![Image of map](/centos release.png)
 ![Image of map](/show file capa.png)
 ![Image of map](/list yum repo list.png)
