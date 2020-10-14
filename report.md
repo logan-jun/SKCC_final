@@ -1,4 +1,4 @@
-## part 1 commands
+# part 1 
 
 ![Image of map](/commands.PNG)
 
@@ -48,3 +48,15 @@
 ![Image of map](/posts%20in%20hue.PNG)
 
 ![Image of map](/hive%20table%20authors%20posts.PNG)
+
+
+
+
+
+
+
+# part 2
+
+3
+create table solution as select c.id as id, c.fname as fname, c.lname as lname, c.hphone as hphone from customer c join account a on (c.id = a.custid) where a.amount < 0
+![Image of map](/p3-2.PNG)
