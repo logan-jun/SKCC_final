@@ -1,38 +1,50 @@
-## part 1
-
+## part 1 commands
 
 ![Image of map](/commands.PNG)
 
+## centos release check
 ![Image of map](/centos%20release.PNG)
 
-![Image of map](/show file capa.PNG)
+## show os file capacity
+![Image of map](/show%20file%20capa.PNG)
 
-![Image of map](/list yum repo list.PNG)
+## list yum repolist
+![Image of map](/list%20yum%20repo%20list.PNG)
 
-![Image of map](/training passwd list.PNG)
+## training passwd list
+![Image of map](/training%20passwd%20list.PNG)
 
-![Image of map](/list group skcc.PNG)
+## list group skcc
+![Image of map](/list%20group%20skcc.PNG)
 
-![Image of map](/getent group skcc.PNG)
+## getent group skcc
+![Image of map](/getent%20group%20skcc.PNG)
 
-![Image of map](/getent passwd training.PNG)
+## getent passwd training
+![Image of map](/getent%20passwd%20training.PNG)
 
-![Image of map](/show databases.PNG)
+## show databases
+![Image of map](/show%20databases.PNG)
 
-![Image of map](/show db version.PNG)
+## show db version
+![Image of map](/show%20db%20version.PNG)
 
-![Image of map](/show db hostname.PNG)
+## show db hostname
+![Image of map](/show%20db%20hostname.PNG)
 
-![Image of map](/cluster 구성.PNG)
+## cluster 구성
+![Image of map](/cluster%20구성.PNG)
 
-![Image of map](/cluster db config.PNG)
+## cluster config
+![Image of map](/cluster%20db%20config.PNG)
 
+## create mysql user
+![Image of map](/create%20mysql%20user.PNG)
 
-![Image of map](/create mysql user.PNG)
+## show authors, posts file in hue
+![Image of map](/authors%20in%20hue.PNG)
 
+## post, authors in hue
+![Image of map](/posts%20in%20hue.PNG)
 
-![Image of map](/authors in hue.PNG)
-
-![Image of map](/posts in hue.PNG)
-
-![Image of map](/hive table authors posts.PNG)
+![Image of map](/hive%20table%20authors%20posts.PNG)
