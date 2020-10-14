@@ -47,7 +47,7 @@
 ## post, authors in hue
 ![Image of map](/posts%20in%20hue.PNG)
 
-![Image of map](/hive%20table%20authors%20posts.PNG)
+![Image of map](/hive%20authors%20posts.PNG)
 
 
 
