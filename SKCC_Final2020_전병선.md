@@ -73,6 +73,9 @@ hadoop fs -text /user/training/problem4/data/employee1 | hadoop fs -put - /user/
 ![Image of map](/p5-1.PNG)
 ![Image of map](/p5-2.PNG)
 
+### num 6
+select from_unixtime(unix_timestamp('02/22/2015' ,'MM/dd/yyyy'), 'MM/dd') from table;
+
 ### num 7
 select concat(employee.fname, ' ', employee.lname) as fullname from employee where employee.city = 'Seattle'
 ![Image of map](/p7.PNG)
@@ -87,3 +90,4 @@ alter table customer change customer.id customer.id string
 create view as (select * from billing b left outer join customer c on (b.id = c.id))
 
 ### num 11
+
