@@ -3,7 +3,7 @@
 
 ![Image of map](/commands.PNG)
 
-![Image of map](/centos release.PNG)
+![Image of map](/centos%20release.PNG)
 
 ![Image of map](/show file capa.PNG)
 
