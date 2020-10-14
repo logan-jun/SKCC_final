@@ -35,6 +35,9 @@
 ## cluster 구성
 ![Image of map](/cluster%20구성.PNG)
 
+## host 목록
+![Image of map](/hosts.PNG)
+
 ## cluster config
 ![Image of map](/cluster%20db%20config.PNG)
 
