@@ -69,6 +69,10 @@ create table solution as select c.id as id, c.fname as fname, c.lname as lname, 
 ### num 4
 hadoop fs -text /user/training/problem4/data/employee1 | hadoop fs -put - /user/training/problem5/data/employee2
 
+### num5
+![Image of map](/p5-1.PNG)
+![Image of map](/p5-2.PNG)
+
 ### num 7
 select concat(employee.fname, ' ', employee.lname) as fullname from employee where employee.city = 'Seattle'
 ![Image of map](/p7.PNG)
