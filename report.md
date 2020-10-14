@@ -56,7 +56,24 @@
 
 
 # part 2
+### num 1
+select account.id, account.type, account.status, account.ammount, (account.ammount - avg(account.ammount) over (partition by account.type)) from account where account.status = 'Active'
 
-3
+### num 2
+create external table employee (id INT, fname string, lname string, address string, city string, state string, zip string, birthday string, hireday string) stored as parquet location '/user/training/problem2/data/employee/'
+![Image of map](/p2.PNG)
+### num 3
 create table solution as select c.id as id, c.fname as fname, c.lname as lname, c.hphone as hphone from customer c join account a on (c.id = a.custid) where a.amount < 0
 ![Image of map](/p3-2.PNG)
+
+### num 7
+select concat(employee.fname, ' ', employee.lname) as fullname from employee where employee.city = 'Seattle'
+![Image of map](/p7.PNG)
+
+### num 8
+sqoop export  --connect jdbc:mysql://localhost/problem8 --username cloudera --password cloudera --table solution --export-dir /user/training/problem8/data/customer/ -m 1
+
+### num 9
+alter table customer change customer.id customer.id string
+
+### num 10
